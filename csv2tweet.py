@@ -11,7 +11,7 @@ with open('input.csv') as csvfile:
         output.write(row['hw'] + ' ')
         output.write('(')
         output.write(row['uid'] + ') ')
-        output.write('https://certification.oshwa.org/' + row['uid'])
+        output.write('https://certification.oshwa.org/' + row['uid'].lower() + '.html')
         output.write('\n')
         output.write('\n')
         output.write("Have OSHW to certify? It's free! https://certification.oshwa.org/")
