@@ -17,6 +17,11 @@ with open('input.csv') as csvfile:
         output.write("Have OSHW to certify? It's free! https://certification.oshwa.org/")
         output.write('\n')
         output.write('\n')
+        output.write("Want to see other certified OSHW? Check out the full list! https://certification.oshwa.org/list.html")
+        output.write('\n')
+        output.write('\n')
+        output.write('\n')
+        output.write('\n')
 
 
 
